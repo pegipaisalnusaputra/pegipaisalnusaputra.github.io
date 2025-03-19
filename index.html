@@ -12,6 +12,9 @@
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -40,12 +43,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Categories </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">IT Netrowrk</a></li>
+            <!-- <li class="nav-item dropdown"> -->
+              <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Categories </a>
+              <ul class="dropdown-menu"> -->
+                <!-- <li><a class="dropdown-item" href="#">IT Netrowrk</a></li>
                 <li><a class="dropdown-item" href="#">Web Developer</a></li>
-                <!-- <li><a class="dropdown-item" href="#">Electronic</a></li> -->
+                <li><a class="dropdown-item" href="#">Electronic</a></li>
                 <li><a class="dropdown-item" href="#">Internet Of Things</a></li>
               </ul>
             </li> -->
@@ -77,13 +80,13 @@
           </div>
         </div>
         <div class="row justify-content-center text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-offset="300">
             <p>
               I am an IT Network and IT Support professional currently working at a company in Sukabumi. With experience in network management and system troubleshooting, I have the ability to ensure that IT infrastructure operates
               optimally.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-offset="300">
             <p>
               In addition to my expertise in computer networking, I also have skills in web development, basic IoT microcontroller configuration using Arduino, and fundamental video editing. With this combination of skills, I strive to
               provide innovative and efficient technology solutions tailored to the needs of the company and the projects I handle.
@@ -110,17 +113,8 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <!-- <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/Elektro.jpg" class="card-img-top" alt="Project1" />
-              <div class="card-body">
-                <h5 class="card-title">Electronics</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div> -->
           <div class="col-md-3 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <img src="img/projects/Network.jpg" class="card-img-top" alt="Project1" />
               <div class="card-body">
                 <h5 class="card-title">Networking</h5>
@@ -132,7 +126,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="100">
               <img src="img/projects/iot.jpg" class="card-img-top" alt="Project2" />
               <div class="card-body">
                 <h5 class="card-title">Internet Of Things</h5>
@@ -141,7 +135,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="200">
               <img src="img/projects/dev.jpg" class="card-img-top" alt="Project3" />
               <div class="card-body">
                 <h5 class="card-title">Web Developer</h5>
@@ -153,7 +147,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="300">
               <img src="img/projects/projectKPI.jpg" class="card-img-top" alt="Project4" />
               <div class="card-body">
                 <h5 class="card-title">Project Web Application "Employee Performance"</h5>
@@ -162,7 +156,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="400">
               <img src="img/projects/appStock.jpg" class="card-img-top" alt="Project5" />
               <div class="card-body">
                 <h5 class="card-title">Project Web Application "Management Inventory"</h5>
@@ -171,7 +165,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="500">
               <img src="img/projects/vid.jpg" class="card-img-top" alt="Project6" />
               <div class="card-body">
                 <h5 class="card-title">Video Editing</h5>
@@ -205,7 +199,7 @@
         </div>
         <div class="row mb-3 justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500">
               <img src="img/certificate/ccnajaringan.jpg" alt="Certificate1" />
               <div class="card-body">
                 <h5>CCNA Cisco</h5>
@@ -214,7 +208,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
               <img src="img/certificate/miniclass.jpg" alt="Certificate2" />
               <div class="card-body">
                 <h5>Cisco Miniclas</h5>
@@ -223,7 +217,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
               <img src="img/certificate/html.jpg" alt="Certificate3" />
               <div class="card-body">
                 <h5>HTML Beginner</h5>
@@ -232,7 +226,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="500">
               <img src="img/certificate/css.jpg" alt="Certificate4" />
               <div class="card-body">
                 <h5>CSS Beginner</h5>
@@ -241,7 +235,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="700">
               <img src="img/certificate/cyber.jpg" alt="Certificate5" />
               <div class="card-body">
                 <h5>Cyber Security</h5>
@@ -253,7 +247,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="900">
               <img src="img/certificate/sistem_informasi.jpg" alt="Certificate6" />
               <div class="card-body">
                 <h5>Informatin System</h5>
@@ -330,6 +324,16 @@
     <!-- End Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script>
+      gsap.from('.jumbotron img', {duration: 1, y: -100, opacity: 0, ease:'elastic'});
+      gsap.from('.navbar', {duration: 1.5, y:'-100%', opacity:0, ease: 'bounce'});
+    </script>
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzIIsj--pseI4ivTO8oiToD3ZgCgweCKtZcMI7_oqPYdUHd0ly2bLXDwXtEgdeUNg/exec';
       const form = document.forms['contact-form'];
