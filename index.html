@@ -18,18 +18,23 @@
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body id="home">
+  <body id="home" class="container">
+
+    <!-- tes navbar -->
+
+    <!-- tes navbar end -->
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #212529">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">Egi Faizal</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"><i class="bi bi-house-fill"></i> Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Project</a>
@@ -43,15 +48,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <!-- <li class="nav-item dropdown"> -->
-              <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Categories </a>
-              <ul class="dropdown-menu"> -->
-                <!-- <li><a class="dropdown-item" href="#">IT Netrowrk</a></li>
-                <li><a class="dropdown-item" href="#">Web Developer</a></li>
-                <li><a class="dropdown-item" href="#">Electronic</a></li>
-                <li><a class="dropdown-item" href="#">Internet Of Things</a></li>
-              </ul>
-            </li> -->
           </ul>
         </div>
       </div>
@@ -59,7 +55,7 @@
     <!-- Navbar End -->
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/egi.jpg" alt="Egi Faizal" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/egi.jpg" alt="Egi Faizal" width="100" class="rounded-circle img-thumbnail" />
       <h1 class="display-4 fw-semibold">Egi Faizal</h1>
       <p class="lead">IT Network | Web Developer | Video Editing</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -80,13 +76,13 @@
           </div>
         </div>
         <div class="row justify-content-center text-center">
-          <div class="col-md-4" data-aos="fade-right" data-aos-offset="300">
+          <div class="col-md-4" data-aos="fade-right" data-aos-offset="200">
             <p>
               I am an IT Network and IT Support professional currently working at a company in Sukabumi. With experience in network management and system troubleshooting, I have the ability to ensure that IT infrastructure operates
               optimally.
             </p>
           </div>
-          <div class="col-md-4" data-aos="fade-left" data-aos-offset="300">
+          <div class="col-md-4" data-aos="fade-left" data-aos-offset="200">
             <p>
               In addition to my expertise in computer networking, I also have skills in web development, basic IoT microcontroller configuration using Arduino, and fundamental video editing. With this combination of skills, I strive to
               provide innovative and efficient technology solutions tailored to the needs of the company and the projects I handle.
@@ -113,20 +109,17 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-3 mb-3">
-            <div class="card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <img src="img/projects/Network.jpg" class="card-img-top" alt="Project1" />
               <div class="card-body">
                 <h5 class="card-title">Networking</h5>
-                <p class="card-text">
-                  Currently my job is as an IT Network or IT Support. Daily activities at work are configuration, maintenance of network tools and computer hardware, ensuring all devices are connected to the network, trouble shooting
-                  software and hardware, etc.
-                </p>
+                <p class="card-text">Currently my job is as an IT Network or IT Support. Daily activities at work are configuration, maintenance of network tools and computer hardware, ensuring all devices are connected to the network, trouble shooting software and hardware, etc.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <div class="card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="100">
               <img src="img/projects/iot.jpg" class="card-img-top" alt="Project2" />
               <div class="card-body">
                 <h5 class="card-title">Internet Of Things</h5>
@@ -134,20 +127,17 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="200">
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="200">
               <img src="img/projects/dev.jpg" class="card-img-top" alt="Project3" />
               <div class="card-body">
                 <h5 class="card-title">Web Developer</h5>
-                <p class="card-text">
-                  Because I think knowledge is important, I am currently exploring and continuing to improve my skills in the field of web programming, especially in the field of Front End developer. I have worked on web programming
-                  projects, ranging from creating websites or web-based applications
-                </p>
+                <p class="card-text">Because I think knowledge is important, I am currently exploring and continuing to improve my skills in the field of web programming, especially in the field of Front End developer. I have worked on web programming projects, ranging from creating websites or web-based applications</p>
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="300">
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="300">
               <img src="img/projects/projectKPI.jpg" class="card-img-top" alt="Project4" />
               <div class="card-body">
                 <h5 class="card-title">Project Web Application "Employee Performance"</h5>
@@ -155,8 +145,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="400">
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="400">
               <img src="img/projects/appStock.jpg" class="card-img-top" alt="Project5" />
               <div class="card-body">
                 <h5 class="card-title">Project Web Application "Management Inventory"</h5>
@@ -164,15 +154,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="500">
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="500">
               <img src="img/projects/vid.jpg" class="card-img-top" alt="Project6" />
               <div class="card-body">
                 <h5 class="card-title">Video Editing</h5>
-                <p class="card-text">
-                  Video editing is one of the hobbies that I have developed, because sometimes I edit videos and upload them on social media. The editing skills I have are not expert editing skills, I can only do basic video editing and I
-                  think it is quite feasible for my edits to be uploaded to social media
-                </p>
+                <p class="card-text">Video editing is one of the hobbies that I have developed, because sometimes I edit videos and upload them on social media. The editing skills I have are not expert editing skills, I can only do basic video editing and I think it is quite feasible for my edits to be uploaded to social media</p>
               </div>
             </div>
           </div>
@@ -325,9 +312,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+      AOS.init();
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script>

@@ -1,6 +1,18 @@
-body {
-  min-height: 2000px;
+/* Menghindari scroll horizontal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* body {
+  min-height: 3000px;
+} */
+
+/* body {
+  overflow-x: hidden; Menghilangkan scroll horizontal
+} */
+
 .jumbotron {
   padding-top: 5rem;
   background-color: #99b3e1;
@@ -11,9 +23,9 @@ body {
   background-color: #99b3e1;
 }
 
-#projects .container {
+/* #projects .container {
   background-color: #99b3e1;
-}
+} */
 
 section {
   padding-top: 5rem;
